@@ -11,3 +11,5 @@ Key work:
 - Performed manual hyperparameter tuning across three configurations by varying Discriminator learning rate, Generator learning rate, label smoothing, and batch size. The best configuration used d_lr=1×10⁻⁴, g_lr=2×10⁻⁴, label smoothing=0.90, and batch size=64.
 - Trained the final Improved GAN for 300 epochs using the selected configuration.
 - Achieved a test-set FID of 232.11, reducing FID by 155.76 points compared with the baseline and demonstrating substantially improved generated image quality and similarity to the real image distribution.
+
+Dataset: https://www.kaggle.com/datasets/datamunge/overheadmnist/data
